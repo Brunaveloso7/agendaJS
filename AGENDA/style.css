@@ -1,0 +1,119 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+body {
+  background: #fdf6e3; 
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+header {
+  background: #fffae5;
+  border-bottom: 3px solid #9950d9;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #5a4634;
+}
+
+
+.formulario {
+  background: #fffdf6;
+  border: 2px dashed #6c17d4;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.formulario input, .formulario button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+}
+
+.formulario input[type="text"] {
+  width: 40%;
+}
+
+.formulario input[type="date"] {
+  width: 25%;
+}
+
+.formulario button {
+  background: #8517d4;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background: #7515b5;
+}
+
+
+#lista-de-tarefas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#lista-de-tarefas div {
+  background: #fffef8;
+  padding: 12px;
+  border-left: 6px solid #8517d4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+#lista-de-tarefas button {
+  background: #7a6bff;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#lista-de-tarefas button:hover {
+  background: #e55353;
+}
+
+
+footer {
+  background: #fffae5;
+  border-top: 2px solid #8250d9;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #5a4634;
+  font-size: 0.9rem;
+}
